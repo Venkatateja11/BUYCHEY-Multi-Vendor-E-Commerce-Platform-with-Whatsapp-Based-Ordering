@@ -1,0 +1,304 @@
+{
+  "vendors": [
+    {
+      "id": 1,
+      "name": "Vendor 1 - Snack House",
+      "username": "vendor1",
+      "password": "password1",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor1@upi"
+    },
+    {
+      "id": 2,
+      "name": "Vendor 2 - Fashion Hub",
+      "username": "vendor2",
+      "password": "password2",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor2@upi"
+    },
+    {
+      "id": 3,
+      "name": "Vendor 3 - Shoe Store",
+      "username": "vendor3",
+      "password": "password3",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor3@upi"
+    },
+    {
+      "id": 4,
+      "name": "Vendor 4 - Style Collection",
+      "username": "vendor4",
+      "password": "password4",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor4@upi"
+    },
+    {
+      "id": 5,
+      "name": "Vendor 5 - Comfort Footwear",
+      "username": "vendor5",
+      "password": "password5",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor5@upi"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Snacks",
+      "icon": "🍿"
+    },
+    {
+      "id": 2,
+      "name": "Dresses",
+      "icon": "👗"
+    },
+    {
+      "id": 3,
+      "name": "Shoes",
+      "icon": "👟"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "vendor_id": 1,
+      "name": "Premium Potato Chips- Spicy",
+      "category": "Snacks",
+      "price": 25.0,
+      "description": "Crispy and delicious potato chips with authentic flavors. Perfect for snacking anytime!",
+      "image_url": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor1@upi"
+    },
+    {
+      "id": 2,
+      "vendor_id": 1,
+      "name": "Hot Samosa",
+      "category": "Snacks",
+      "price": 15.0,
+      "description": "Fresh and hot samosas with spicy potato filling. A perfect tea-time snack!",
+      "image_url": "https://images.pexels.com/photos/6210751/pexels-photo-6210751.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor1@upi"
+    },
+    {
+      "id": 3,
+      "vendor_id": 1,
+      "name": "Spicy Mixture",
+      "category": "Snacks",
+      "price": 30.0,
+      "description": "Traditional Indian mixture with peanuts, sev, and spices. Crunchy and flavorful!",
+      "image_url": "https://images.pexels.com/photos/7129135/pexels-photo-7129135.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor1@upi"
+    },
+    {
+      "id": 4,
+      "vendor_id": 2,
+      "name": "Designer Kurti",
+      "category": "Dresses",
+      "price": 899.0,
+      "description": "Elegant designer kurti with beautiful embroidery work. Perfect for casual and formal occasions.",
+      "image_url": "https://images.pexels.com/photos/8148579/pexels-photo-8148579.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor2@upi"
+    },
+    {
+      "id": 5,
+      "vendor_id": 2,
+      "name": "Cotton T-Shirt",
+      "category": "Dresses",
+      "price": 399.0,
+      "description": "Comfortable 100% cotton t-shirt with modern design. Available in multiple colors.",
+      "image_url": "https://images.pexels.com/photos/1020585/pexels-photo-1020585.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor2@upi"
+    },
+    {
+      "id": 6,
+      "vendor_id": 4,
+      "name": "Traditional Lehenga",
+      "category": "Dresses",
+      "price": 2499.0,
+      "description": "Beautiful traditional lehenga with intricate designs. Perfect for weddings and festivals.",
+      "image_url": "https://images.pexels.com/photos/2870167/pexels-photo-2870167.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor4@upi"
+    },
+    {
+      "id": 7,
+      "vendor_id": 3,
+      "name": "Sports Sneakers",
+      "category": "Shoes",
+      "price": 1299.0,
+      "description": "Comfortable sports sneakers with excellent grip. Perfect for running and workouts.",
+      "image_url": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor3@upi"
+    },
+    {
+      "id": 8,
+      "vendor_id": 3,
+      "name": "Formal Leather Shoes",
+      "category": "Shoes",
+      "price": 1899.0,
+      "description": "Premium leather formal shoes. Perfect for office and formal events.",
+      "image_url": "https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor3@upi"
+    },
+    {
+      "id": 9,
+      "vendor_id": 5,
+      "name": "Casual Sandals",
+      "category": "Shoes",
+      "price": 599.0,
+      "description": "Comfortable casual sandals for everyday wear. Lightweight and durable.",
+      "image_url": "https://images.pexels.com/photos/267301/pexels-photo-267301.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor5@upi"
+    },
+    {
+      "id": 10,
+      "vendor_id": 4,
+      "name": "Summer Dress",
+      "category": "Dresses",
+      "price": 799.0,
+      "description": "Light and breezy summer dress. Perfect for hot weather and beach outings.",
+      "image_url": "https://images.pexels.com/photos/985635/pexels-photo-985635.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "qr_code_url": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=UPI://pay?pa=vendor4@upi"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customer_name": "DSudhk",
+      "customer_email": "d",
+      "customer_phone": "d",
+      "customer_address": "s",
+      "vendor_id": 1,
+      "vendor_name": "Vendor 1",
+      "product_id": 3,
+      "product_name": "Spicy Mixture",
+      "product_price": 30.0,
+      "quantity": 1,
+      "total_amount": 30.0,
+      "payment_method": "cash_on_delivery",
+      "status": "pending",
+      "created_at": "2026-03-09T22:23:55.481698",
+      "updated_at": "2026-03-09T22:23:55.511698"
+    },
+    {
+      "id": 2,
+      "customer_name": "Sudheer Kumar Divvela",
+      "customer_email": "divvelask.511@gmail.com",
+      "customer_phone": "5022982505",
+      "customer_address": "18085 Bridle Run Dr",
+      "vendor_id": 1,
+      "vendor_name": "Vendor 1",
+      "product_id": 1,
+      "product_name": "Premium Potato Chips- Spicy",
+      "product_price": 25.0,
+      "quantity": 1,
+      "total_amount": 25.0,
+      "payment_method": "qr_code",
+      "status": "confirmed",
+      "created_at": "2026-03-09T22:49:49.183957",
+      "updated_at": "2026-03-09T22:50:03.391718"
+    },
+    {
+      "id": 3,
+      "customer_name": "teja",
+      "customer_email": "tejasunny30@gmail.com",
+      "customer_phone": "09885183160",
+      "customer_address": "kamela street gooty",
+      "vendor_id": 3,
+      "vendor_name": "Vendor 3",
+      "product_id": 7,
+      "product_name": "Sports Sneakers",
+      "product_price": 1299.0,
+      "quantity": 1,
+      "total_amount": 1299.0,
+      "payment_method": "cash_on_delivery",
+      "status": "pending",
+      "created_at": "2026-03-10T22:37:34.004340",
+      "updated_at": "2026-03-10T22:37:34.005325"
+    },
+    {
+      "id": 4,
+      "customer_name": "teja",
+      "customer_email": "tejasunny30@gmail.com",
+      "customer_phone": "09885183160",
+      "customer_address": "kamela street gooty",
+      "vendor_id": 2,
+      "vendor_name": "Vendor 2",
+      "product_id": 5,
+      "product_name": "Cotton T-Shirt",
+      "product_price": 399.0,
+      "quantity": 1,
+      "total_amount": 399.0,
+      "payment_method": "cash_on_delivery",
+      "status": "confirmed",
+      "created_at": "2026-03-10T22:37:34.070014",
+      "updated_at": "2026-03-10T22:39:19.836917"
+    },
+    {
+      "id": 5,
+      "customer_name": "Nallabothula Venkata Teja",
+      "customer_email": "tejasunny30@gmail.com",
+      "customer_phone": "09885183160",
+      "customer_address": "Kamela Street ,Gooty Town",
+      "vendor_id": 1,
+      "vendor_name": "Vendor 1",
+      "product_id": 1,
+      "product_name": "Premium Potato Chips- Spicy",
+      "product_price": 25.0,
+      "quantity": 1,
+      "total_amount": 25.0,
+      "payment_method": "cash_on_delivery",
+      "status": "pending",
+      "created_at": "2026-04-11T10:59:58.920951",
+      "updated_at": "2026-04-11T10:59:58.922973"
+    },
+    {
+      "id": 6,
+      "customer_name": "Nallabothula Venkata Teja",
+      "customer_email": "tejasunny30@gmail.com",
+      "customer_phone": "09885183160",
+      "customer_address": "Kamela Street ,Gooty Town",
+      "vendor_id": 1,
+      "vendor_name": "Vendor 1",
+      "product_id": 2,
+      "product_name": "Hot Samosa",
+      "product_price": 15.0,
+      "quantity": 1,
+      "total_amount": 15.0,
+      "payment_method": "cash_on_delivery",
+      "status": "pending",
+      "created_at": "2026-04-11T10:59:59.025403",
+      "updated_at": "2026-04-11T10:59:59.025403"
+    },
+    {
+      "id": 7,
+      "customer_name": "Nallabothula Venkata Teja",
+      "customer_email": "tejasunny30@gmail.com",
+      "customer_phone": "09885183160",
+      "customer_address": "Kamela Street ,Gooty Town",
+      "vendor_id": 1,
+      "vendor_name": "Vendor 1",
+      "product_id": 1,
+      "product_name": "Premium Potato Chips- Spicy",
+      "product_price": 25.0,
+      "quantity": 1,
+      "total_amount": 25.0,
+      "payment_method": "qr_code",
+      "status": "pending",
+      "created_at": "2026-04-11T11:00:43.484329",
+      "updated_at": "2026-04-11T11:00:43.484329"
+    },
+    {
+      "id": 8,
+      "customer_name": "Nallabothula Venkata Teja",
+      "customer_email": "tejasunny30@gmail.com",
+      "customer_phone": "09885183160",
+      "customer_address": "Kamela Street ,Gooty Town",
+      "vendor_id": 1,
+      "vendor_name": "Vendor 1",
+      "product_id": 2,
+      "product_name": "Hot Samosa",
+      "product_price": 15.0,
+      "quantity": 1,
+      "total_amount": 15.0,
+      "payment_method": "qr_code",
+      "status": "pending",
+      "created_at": "2026-04-11T11:00:43.545677",
+      "updated_at": "2026-04-11T11:00:43.545677"
+    }
+  ]
+}
