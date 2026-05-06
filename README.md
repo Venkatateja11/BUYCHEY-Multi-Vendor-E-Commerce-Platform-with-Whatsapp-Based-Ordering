@@ -30,32 +30,42 @@ BUYCHEY is a modern multi-vendor e-commerce platform designed to simplify online
 **Version Control:** Git & GitHub  
 
 ---
-⚡ Work Completed
+## ⚡ Work Completed
 Requirement analysis and system planning
 System architecture design
 Backend project setup using FastAPI
 Vendor authentication and product APIs
 Database schema design and integration
 
-🚧 Challenges
+---
+
+## 🚧 Challenges
 Designing efficient multi-vendor order splitting
 Planning WhatsApp conversational workflows
 Ensuring scalability and simplicity
 
-🔮 Future Scope
+---
+
+## 🔮 Future Scope
 Complete backend development
 Build frontend using React
 Integrate WhatsApp Business API
 Deploy on cloud platforms (AWS/Azure)
 Implement advanced analytics and reporting
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 Contributions are welcome!
 Fork the repository and submit a pull request with improvements.
 
-📜 License
+---
+
+## 📜 License
 This project is licensed under the MIT License.
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
 Developed by Venkatateja11
 GitHub: https://github.com/Venkatateja11
